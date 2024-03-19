@@ -1,0 +1,226 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  max-width: 75em;
+  margin: auto;
+  font-family: roboto, arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.intro-info{
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  align-items: center;
+  padding: 1em;
+}
+
+.profile-image{
+  width: 7em;
+  border-radius: 14em;
+}
+
+.heading-text {
+  font-family: saira condensed, arial, sans-serif;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 1.2em;
+}
+
+.contact-info p{
+  font-size: 1em;
+  line-height: 2.5em;
+  color: rgb(138, 136, 136);
+}
+
+.section-headings{
+  padding: 1em;
+  font-family: saira condensed, arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.introduction{
+  padding: 1em;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  text-align: justify;
+  padding-top: 0;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  margin: 3em;
+}
+
+.button a{
+  background-color: black;
+  color: white;
+  padding: 1em 2em;
+  font-family: saira condensed, arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  border-radius: 0.5em;
+  transition: 0.15s;
+}
+
+.button a:hover{
+  opacity: 0.7;
+}
+
+.interest-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 1em;
+  text-align: center;
+  font-weight: 500;
+}
+
+.grid-item{
+  padding: 0.5em;
+  transition: 0.2s;
+}
+
+.grid-item:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-item img{
+  width: 17em;
+  max-height: 17em;
+  margin-top: 1em;
+  padding: 0.3em;
+  border: solid 0.1em black;
+  border-radius: 0.2em;
+}
+
+footer{
+  padding: 1.5em;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex: content;
+  justify-content: center;
+}
+
+footer a{
+  color: white;
+  transition: 0.2s;
+}
+
+footer a:hover{
+  opacity: 0.7;
+}
+
+.basic-info{
+  display: flex;
+  flex: 1fr 2fr;
+  padding: 1em;
+}
+
+.experience-info{
+  width: 50em;
+}
+
+.experience-info .section-headings{
+  padding: 0;
+}
+
+.experience-info h3,
+.project-item h3,
+.technical-skills h3,
+.education h3,
+.language-item h3{
+  font-family: saira condensed, arial, sans-serif;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.experience-info p,
+.date,
+.technical-skills p,
+.education p,
+.portfolio p,
+.language-item p{
+  margin-top: 0.5em;
+  color: rgb(115, 115, 115);
+}
+
+.language-item p{
+  margin-top: 0;
+}
+
+.portfolio p{
+  text-decoration: underline;
+  line-height: 1.5em;
+}
+
+.date{
+  font-size: 0.8em;
+}
+
+.brief-info{
+  margin-left: 4em;
+}
+
+.brief-info .section-headings{
+  padding: 0;
+}
+
+.brief-info p,
+.project-item p{
+  margin-top: 1em;
+  line-height: 1.5em;
+}
+
+.technical-info{
+  display: flex;
+  padding: 1em;
+  flex: 2fr 1fr;
+  justify-content: space-between;
+  gap: 5em;
+}
+
+.technical-skills{
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.skill-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+}
+
+.technical-skills h2,
+.qualifications-section h2{
+  font-family: saira condensed, arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.qualifications-section{
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.language-items{
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.language-item{
+  display: flex;
+  justify-content: space-between;
+  gap: 5em;
+  align-items: center;
+}
